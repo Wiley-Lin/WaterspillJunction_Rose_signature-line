@@ -5,39 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: transparent; font-family: Georgia, serif; overflow: hidden; }
+  body { background: #2b2926; font-family: Georgia, serif; overflow: hidden; }
   .wrap { max-width: 680px; margin: 0 auto; padding: 24px 24px 40px; }
   .author {
     border-top: 1px solid #3A3028;
     padding-top: 32px;
     display: flex;
-    gap: 20px;
+    gap: 16px;
     align-items: flex-start;
   }
   .avatar {
-    width: 56px; height: 56px;
+    width: 48px; height: 48px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.07);
     border: 2px solid #C49A3C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-shrink: 0;
-    font-family: Georgia, serif;
-    font-size: 18px;
-    color: #C49A3C;
+    object-fit: cover;
   }
   .author-text h4 {
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #F5F0E8;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
   .author-text p {
-    font-size: 13px;
+    font-size: 11px;
     color: #9A8A78;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
   }
 </style>
@@ -45,10 +39,10 @@
 <body>
 <div class="wrap">
   <div class="author">
-    <div class="avatar">RW</div>
+    <img class="avatar" src="rose.jpg" alt="Rose Weaver">
     <div class="author-text">
       <h4>Rose Weaver</h4>
-      <p>Playwright, actress, and singer. MFA in Playwriting, Brown University. Honorary Doctor of Fine Arts, Marymount Manhattan College.</p>
+      <p>Playwright, actress, and singer. Author of <em>Menopause Mama</em>, <em>Skips in the Record</em>, <em>Well Water Blues</em>, and more. MFA in Playwriting from Brown University. Honorary Doctor of Fine Arts from Marymount Manhattan College.</p>
     </div>
   </div>
 </div>
